@@ -37,3 +37,12 @@ img {
   margin: 25px;
   font-size: large;
 }
+
+.links {
+  border: 1px solid white;
+  float: right;
+  border-radius: 50px;
+  padding: 10px;
+  margin-bottom: 15px;
+  width: 45px;
+}
