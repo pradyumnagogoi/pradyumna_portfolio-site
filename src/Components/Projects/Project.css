@@ -4,12 +4,12 @@
   max-width: 100%;
   height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 45px;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
-  overflow-x: auto;
+  overflow-y: auto;
   padding: 25px;
 }
 
@@ -21,8 +21,7 @@
   width: 100%;
   max-width: 450px;
   height: 500px;
-  margin-left: 12vw;
-  left: 50%;
+  margin-top: 55px;
   padding: 10px;
 }
 
@@ -36,13 +35,4 @@ img {
 .projectDetails {
   margin: 25px;
   font-size: large;
-}
-
-.links {
-  border: 1px solid white;
-  float: right;
-  border-radius: 50px;
-  padding: 10px;
-  margin-bottom: 15px;
-  width: 45px;
 }

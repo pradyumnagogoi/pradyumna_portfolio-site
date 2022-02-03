@@ -1,10 +1,11 @@
 import React from 'react';
-import {NavLink} from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import '../SideNavBar/SideNav.css';
 import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined';
 import InfoOutlinedIcon from '@mui/icons-material/InfoOutlined';
 import WorkOutlineOutlinedIcon from '@mui/icons-material/WorkOutlineOutlined';
 import ContactPageOutlinedIcon from '@mui/icons-material/ContactPageOutlined';
+
 
 function SideNav({show}) {
   return (
@@ -22,6 +23,7 @@ function SideNav({show}) {
                 <li>
                 <NavLink exact activeclassName="active_class" to="/contect"> <ContactPageOutlinedIcon /> Contect me </NavLink>
                 </li>
+                
               </ul>
         </div>
   )

@@ -11,7 +11,7 @@ function Home() {
                 <h3>This is Pradyumna Gogoi, a full stack developer</h3>
                 <div className='btn'>
                     <button><NavLink exact activeclassName="active_class" to="/about"> About Me </NavLink></button>
-                    <button><NavLink exact activeclassName="active_class" to="/footer"> Connect with Me </NavLink></button>
+                    <button><NavLink exact activeclassName="active_class" to="/project"> My works </NavLink></button>
                 </div>
                 </div>
                 
