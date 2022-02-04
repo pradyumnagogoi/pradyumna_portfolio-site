@@ -6,13 +6,13 @@ function About() {
       <div className='aboutMe'>
                 <h1>About Me.</h1>
                 <p>Student | Web Developer | Stock Trader</p>
-                <p></p>
+                <p>Hii.. myself Pradyumna Gogoi. I'm a student with a keen interest in 'Full Stack-web dev'.</p>
             </div>
             <div className='aboutSkill'>
                 <div>
                     <h2>My Skills</h2>
                     <div>
-                    <img className='about_Img' src='https://illustratious.s3.amazonaws.com/screenshots/y2slcf-online-university-webp.webp' alt='img' />
+                    <img className='about_Img' src='bb.webp' alt='img' />
                 </div>
                     <div class="skill-card-container">
                         <div className="skill">
