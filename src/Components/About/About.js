@@ -10,10 +10,11 @@ function About() {
             </div>
             <div className='aboutSkill'>
                 <div>
+                <div>
+                    <img className='about_Img' src='about_anime.gif' alt='img' />
+                    </div>
                     <h2>My Skills</h2>
-                    <div>
-                    <img className='about_Img' src='bb.webp' alt='img' />
-                </div>
+                    
                     <div class="skill-card-container">
                         <div className="skill">
                             <img src="https://madhavbahl.tech/portfolio-assets/html.png" alt="skill" />

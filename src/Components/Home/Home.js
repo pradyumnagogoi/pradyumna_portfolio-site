@@ -7,7 +7,7 @@ function Home() {
       <div className='main'>
                 <h1>Hello World!</h1>
                 <h3>Welcome to my portfolio</h3>
-                <img className='home_img' src='aa.webp' alt='img' />
+                <img className='home_img' src='home_anime.gif' alt='img' />
                 <h3>This is Pradyumna Gogoi, a full stack developer</h3>
                 <div className='btn'>
                     <button><NavLink exact activeclassName="active_class" to="/about"> About Me </NavLink></button>
