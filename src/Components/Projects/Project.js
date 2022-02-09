@@ -28,12 +28,12 @@ function Project() {
       </div>
       <div className='projects'>
           <div className='projectName'>
-              <h1>The Social Media App</h1>
+              <a href='https://romantic-swanson-f0c7ad.netlify.app'><h1>Amazon-clone</h1></a>
           </div>
           <div className='projectImg'>
-              <img src='https://cdn.dribbble.com/users/288987/screenshots/3163823/winter-wonderland.png?compress=1&resize=800x600&vertical=top' alt='img' />
+              <img src='Amazon.png' alt='img' />
           </div>
-          <div className='projectDetails'>Project detalis, link...</div>
+          <div className='projectDetails'>A clone of Amazon website build using React.</div>
       </div>
         <div className='projects'>
           <div className='projectName'>
