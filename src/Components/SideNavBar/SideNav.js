@@ -10,7 +10,7 @@ import ContactPageOutlinedIcon from '@mui/icons-material/ContactPageOutlined';
 function SideNav({show}) {
   return (
   <div className={show ? 'sidenav active' : 'sidenav'}>
-            <ul>
+            <ul className='navUl'>
                 <li>
                 <NavLink exact activeclassName="active_class" to="/"> <HomeOutlinedIcon /> Home </NavLink>
                 </li>

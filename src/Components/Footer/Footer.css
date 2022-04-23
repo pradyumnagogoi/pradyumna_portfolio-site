@@ -1,0 +1,20 @@
+.footer {
+    width: 240px;
+    background: transparent;
+    position: fixed;
+    bottom: 100%;
+    right: 10%;
+    transition: all 0.3s;
+}
+  
+.footer.active {
+    bottom: 0px;
+    margin-bottom: 7%;
+}
+
+.footUl{
+    list-style-type: none;
+    position: absolute;
+    right: -60%;
+    bottom: 15%;
+}

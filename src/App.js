@@ -8,19 +8,24 @@ import Home from './Components/Home/Home';
 import Project from './Components/Projects/Project';
 import MenuOutlinedIcon from '@mui/icons-material/MenuOutlined';
 import SideNav from './Components/SideNavBar/SideNav';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import GitHubIcon from '@mui/icons-material/GitHub';
-import InstagramIcon from '@mui/icons-material/Instagram';
-import TwitterIcon from '@mui/icons-material/Twitter';
+import Footer from './Components/Footer/Footer';
+import ArrowCircleUpIcon from '@mui/icons-material/ArrowCircleUp';
 
 function App() {
-  const [showNav, setShowNav] = useState(false);
+  const [showNav, setShowNav] = useState();
+  const [showFooter, setShowFooter] = useState();
     return (
       <div>
         <header>
-        <MenuOutlinedIcon onClick={() => setShowNav(!showNav)} />
+        <MenuOutlinedIcon className='headerBtn' onClick={() => setShowNav(!showNav)} />
         </header>
         <SideNav show={showNav} />
+
+        <footer>
+        <ArrowCircleUpIcon className='footerBtn' onClick={() => setShowFooter(!showFooter)} />
+      </footer>
+      <Footer show={showFooter} />
+      
   
       <Routes>
         <Route exact path="/" element={<Home />}/>
@@ -29,12 +34,6 @@ function App() {
         <Route path="/contect" element={<Contect />}/>
       </Routes>
       
-      <footer className='socialLinks'>
-        <LinkedInIcon />
-        <GitHubIcon />
-        <InstagramIcon />
-        <TwitterIcon />
-      </footer>
       </div>
     );
 }

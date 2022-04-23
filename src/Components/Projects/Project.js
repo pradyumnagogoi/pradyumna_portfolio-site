@@ -6,7 +6,7 @@ function Project() {
       
       <div className='projects'>
           <div className='projectName'>
-              <h1><a href='https://kind-haibt-6f106b.netlify.app'>Instagram page</a></h1>
+              <h1><a href='https://flamboyant-volhard-e5e3e1.netlify.app' target="_blank" rel="noopener noreferrer">Instagram page</a></h1>
           </div>
           <div className='projectImg'>
               <img src='XM5befO.png' alt='img' />
@@ -17,7 +17,7 @@ function Project() {
       </div>
       <div className='projects'>
           <div className='projectName'>
-              <h1><a href='https://dazzling-snyder-514dd9.netlify.app'>Swiggy web-page</a></h1>
+              <h1><a href='https://dazzling-snyder-514dd9.netlify.app' target="_blank" rel="noopener noreferrer">Swiggy web-page</a></h1>
           </div>
           <div className='projectImg'>
               <img src='z2VFS0W.png' alt='img' />
@@ -28,7 +28,7 @@ function Project() {
       </div>
       <div className='projects'>
           <div className='projectName'>
-              <a href='https://romantic-swanson-f0c7ad.netlify.app'><h1>Amazon-clone</h1></a>
+              <a href='https://romantic-swanson-f0c7ad.netlify.app' target="_blank" rel="noopener noreferrer"><h1>Amazon-clone</h1></a>
           </div>
           <div className='projectImg'>
               <img src='Amazon.png' alt='img' />
@@ -37,7 +37,7 @@ function Project() {
       </div>
         <div className='projects'>
           <div className='projectName'>
-              <h1><a href='https://cocky-mahavira-213d53.netlify.app'>My Portfolio site</a></h1>
+              <h1><a href='https://cocky-mahavira-213d53.netlify.app' target="_blank" rel="noopener noreferrer">My Portfolio site</a></h1>
           </div>
           <div className='projectImg'>
               <img src='Portfolio.png' alt='img' />
@@ -48,6 +48,15 @@ function Project() {
         </div>
       <div className='projects'>
           <div className='projectName'>
+              <h1><a href='https://admiring-leavitt-a48cca.netlify.app' target="_blank" rel="noopener noreferrer">To Do App</a></h1>
+          </div>
+          <div className='projectImg'>
+              <img src='todo.png' alt='img' />
+          </div>
+          <div className='projectDetails'>A simple To Do App built using react. </div>
+      </div>
+      <div className='projects'>
+          <div className='projectName'>
               <h1>404!</h1>
           </div>
           <div className='projectImg'>
@@ -55,7 +64,6 @@ function Project() {
           </div>
           <div className='projectDetails'>Hold on. Somethig more special is coming... </div>
       </div>
-      
   </div>;
 }
 

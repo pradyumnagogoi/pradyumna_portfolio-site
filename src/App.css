@@ -9,28 +9,29 @@ body {
   color: white;
 }
 
-header {
-  padding: 45px;
-  background: transparent;
+.headerBtn {
   position: fixed;
   transform: scale(2);
   cursor: pointer;
+  margin: 35px;
 }
 
-header :hover {
-  color: rgb(9, 35, 61);
+.headerBtn :hover {
+  color: rgb(167, 211, 21);
+  
 }
 
-.socialLinks {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  gap: 10px;
-  padding: 45px;
-  background: transparent;
+.footerBtn{
   position: fixed;
-  transform: scale(2);
+  transform: scale(1.7);
   cursor: pointer;
-  right: 0;
-  top: 60%;
+  right: 25px;  
+  bottom: 45px;
+  
+  
+}
+
+.footerBtn :hover {
+  color: rgb(201, 234, 12);
+  
 }
