@@ -4,9 +4,12 @@ import '../About/About.css';
 function About() {
   return <div className='about'>
       <div className='aboutMe'>
-                <h1>About Me.</h1>
-                <p>Student | Web Developer | Stock Trader</p>
-                <p>Hii.. myself Pradyumna Gogoi. I'm a student with a keen interest in 'Full Stack-web dev'.</p>
+                <h1>About Me...</h1>
+                <h3>Student | Web Developer | Stock Trader</h3>
+                <p>Hii.. myself Pradyumna Gogoi. I'm a student with a keen interest in 'Full Stack-web dev'.<br/>I am seeking for a position
+                in a reputed organization that fully utilize my skills<br/> and provides me with suitable opportunities to grow my technical and<br/>
+                communication skills in order to leverage my learnings as well as to enhance<br/> my existing skills which would help
+                me as a fresher to grow while working towards the growth of the organization.</p>
             </div>
             <div className='aboutSkill'>
                 <div>
