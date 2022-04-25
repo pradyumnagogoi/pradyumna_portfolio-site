@@ -20,11 +20,12 @@
   border-radius: 25px;
 }
 
-@media only screen and (max-width:480px) {
+@media only screen and (max-width:580px) {
   .projects{
     width: 250px;
     height: 100%;
-    margin-top: 45px;
+    margin-top: 25%;
+    
   }
 }
 
