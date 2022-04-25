@@ -25,6 +25,21 @@ function SideNav({show}) {
                 </li>
                 
               </ul>
+              <ul className='navSortUl'>
+                <li>
+                <NavLink exact activeclassName="active_class" to="/"> <HomeOutlinedIcon /></NavLink>
+                </li>
+                <li>
+                <NavLink exact activeclassName="active_class" to="/about"> <InfoOutlinedIcon /></NavLink>
+                </li>
+                <li>
+                <NavLink exact activeclassName="active_class" to="/project"> <WorkOutlineOutlinedIcon /></NavLink>
+                </li>
+                <li>
+                <NavLink exact activeclassName="active_class" to="/contect"> <ContactPageOutlinedIcon /></NavLink>
+                </li>
+                
+              </ul>
         </div>
   )
 }

@@ -17,6 +17,17 @@
 .aboutMe {
   text-align: center;
   padding-top: 30px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.aboutMe > h3{
+  margin: 15px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.aboutMe > p{
+  padding: 5px;
+  margin: 15px;
 }
 
 .about_Img {
@@ -55,4 +66,10 @@
 .skills-vector {
   max-height: 100%;
   width: 100%;
+}
+
+@media only screen and (max-width: 480px) {
+  .aboutMe {
+    margin-top: 15%;
+  }
 }

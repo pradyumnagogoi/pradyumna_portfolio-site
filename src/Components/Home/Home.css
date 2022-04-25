@@ -14,8 +14,9 @@
   color: white;
 }
 
-.main h1 {
+.main > h1 {
   font-size: 5em;
+  font-weight: 300;
   font-family: "Luxurious Roman";
 }
 
@@ -50,4 +51,28 @@ button {
 a {
   text-decoration: none;
   color: white;
+}
+
+@media only screen and (max-width:480px) {
+  .main{
+    margin-top: 5%;
+  }
+  .main > h1{
+    font-size: 3em;
+  }
+  button{
+  width: 12em;
+  height: 3em;
+  border: solid white 2px;
+  background: none;
+  border-radius: 50px;
+  cursor: pointer;
+  padding: 7px;
+  margin-top: 15px;
+  font-size: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  }
 }

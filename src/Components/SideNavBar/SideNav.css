@@ -38,3 +38,37 @@ ul li a {
   margin-left: 25px;
   color: aquamarine;
 }
+
+.navSortUl{
+  display: none;
+}
+
+@media only screen and (max-width: 480px) {
+  .navUl{
+    display: none;
+  }
+  .navSortUl {
+    display: contents;
+  }
+  .sidenav {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    top: -100%;
+    left: 0;
+    height: 10vh;
+    padding: 20px;
+    background: transparent;
+    width: 50%;
+    margin-left: 15%;
+  }
+  .sidenav.active{
+    top: 0px;
+    margin-top: 0vh;
+  }
+  ul{
+    list-style-type: none;
+    display: inline;
+  }
+  
+}
