@@ -21,7 +21,7 @@ function App() {
         </header>
         <SideNav show={showNav} />
 
-        <footer>
+        <footer title="click here to get social links">
         <ArrowCircleUpIcon className='footerBtn' onClick={() => setShowFooter(!showFooter)} />
       </footer>
       <Footer show={showFooter} />

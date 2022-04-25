@@ -1,48 +1,46 @@
-.project {
-  background-color: #6daddb;
-  background-image: linear-gradient(315deg, #6daddb 0%, #313131 74%);
-  max-width: 100%;
-  height: 100vh;
+.project{
   display: flex;
-  flex-direction: row;
-  gap: 45px;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  overflow-y: auto;
-  padding: 25px;
+  gap: 15px;
+  background-color: #7fcec5;
+  background-image: linear-gradient(315deg, #7fcec5 0%, #14557b 74%);
+  height: 100%;  
 }
 
-.project::-webkit-scrollbar {
-  display: none;
-}
-
-
-.project {
-  -ms-overflow-style: none;  
-  scrollbar-width: none;  
-}
-
-.projects {
+.projects{
   display: flex;
   flex-direction: column;
-  border: solid 2px white;
-  border-radius: 0px 50px 0px 50px;
-  width: 100%;
-  max-width: 450px;
-  height: 600px;
-  margin-top: 55px;
-  padding: 10px;
-}
-
-.projectImg > img {
-  width: 100%;
-  height: 400px;
-  padding-top: 10px;
-  border-radius: 50px 0 50px 0;
-}
-
-.projectDetails {
+  width: 350px;
+  height: 100%;
+  padding: 15px;
   margin: 25px;
-  font-size: large;
+  border: 2px solid white;
+  border-radius: 25px;
+}
+
+@media only screen and (max-width:480px) {
+  .projects{
+    width: 250px;
+    height: 100%;
+    margin-top: 45px;
+  }
+}
+
+.projectImg > img{
+  width: 100%;
+  height: 270px;
+}
+
+.projectName{
+  font-size: 12px;
+  font-family: 'Courier New', Courier, monospace;
+  margin-bottom: 15px;
+}
+
+.projectDetails{
+  border-top: 2px solid red;
+  padding: 5px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
