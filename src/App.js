@@ -5,32 +5,26 @@ import { useState } from 'react';
 import About from './Components/About/About';
 import Contect from './Components/Contect me/Contect';
 import Home from './Components/Home/Home';
+import Achivement from './Components/MyAchivments/Achivement';
 import Project from './Components/Projects/Project';
 import MenuOutlinedIcon from '@mui/icons-material/MenuOutlined';
 import SideNav from './Components/SideNavBar/SideNav';
-import Footer from './Components/Footer/Footer';
-import ArrowCircleUpIcon from '@mui/icons-material/ArrowCircleUp';
+
 
 function App() {
   const [showNav, setShowNav] = useState();
-  const [showFooter, setShowFooter] = useState();
+ 
     return (
       <div>
         <header>
         <MenuOutlinedIcon className='headerBtn' onClick={() => setShowNav(!showNav)} />
         </header>
         <SideNav show={showNav} />
-
-        <footer title="click here to get social links">
-        <ArrowCircleUpIcon className='footerBtn' onClick={() => setShowFooter(!showFooter)} />
-      </footer>
-      <Footer show={showFooter} />
-      
-  
       <Routes>
         <Route exact path="/" element={<Home />}/>
         <Route path="/about" element={<About />}/>
         <Route path="/project" element={<Project />}/>
+        <Route path="/achivement" element={<Achivement />}/>
         <Route path="/contect" element={<Contect />}/>
       </Routes>
       

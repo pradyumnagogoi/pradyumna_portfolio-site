@@ -5,6 +5,7 @@ import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined';
 import InfoOutlinedIcon from '@mui/icons-material/InfoOutlined';
 import WorkOutlineOutlinedIcon from '@mui/icons-material/WorkOutlineOutlined';
 import ContactPageOutlinedIcon from '@mui/icons-material/ContactPageOutlined';
+import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
 
 
 function SideNav({show}) {
@@ -21,6 +22,9 @@ function SideNav({show}) {
                 <NavLink exact activeclassName="active_class" to="/project"> <WorkOutlineOutlinedIcon /> Project </NavLink>
                 </li>
                 <li>
+                <NavLink exact activeclassName="active_class" to="/achivement"> <EmojiEventsIcon />  Achivements </NavLink>
+                </li>
+                <li>
                 <NavLink exact activeclassName="active_class" to="/contect"> <ContactPageOutlinedIcon /> Contect me </NavLink>
                 </li>
                 
@@ -34,6 +38,9 @@ function SideNav({show}) {
                 </li>
                 <li>
                 <NavLink exact activeclassName="active_class" to="/project"> <WorkOutlineOutlinedIcon /></NavLink>
+                </li>
+                <li>
+                <NavLink exact activeclassName="active_class" to="/achivement"><EmojiEventsIcon /></NavLink>
                 </li>
                 <li>
                 <NavLink exact activeclassName="active_class" to="/contect"> <ContactPageOutlinedIcon /></NavLink>

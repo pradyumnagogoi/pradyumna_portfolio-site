@@ -1,0 +1,79 @@
+.achivments{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding: 10px;
+    height: 100%;
+    background-color: #b25c79;
+    background-image: linear-gradient(315deg, #0d0a0b 0%, #009fc2 74%);
+}
+      
+.doc{
+    position: relative;
+    width: 450px;
+    height: 550px;
+    margin: 25px;
+    border: 2px solid white;
+}
+      
+.docImg{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    display: block;
+}
+      
+.page{
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1; 
+    width: 100%;
+    height: 35%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+}
+      
+.page > h2{
+    padding: 15px;
+    font-weight: 300;
+}
+      
+.page > p{
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 300;
+}
+      
+.doc:hover .page{
+    opacity: 1;
+}
+
+
+
+
+@media only screen and (max-width:580px) {
+    .doc{
+        position: relative;
+        width: 270px;
+        height: 400px;
+        margin-top: 20%;
+        border: 2px solid white;
+    }
+    .page > h2{
+        padding: 12px;
+        font-weight: 300;
+        font-size: 25px;
+    }
+    .page > p{
+        padding: 10px;
+        font-size: 12px;
+        font-weight: 300;
+    }
+}
